@@ -1,37 +1,37 @@
-# 🚀 Holistic Hires
+# Holistic Hires
 
 > **AI-Powered Technical Hiring Platform** - Revolutionizing recruitment with bias-free, comprehensive candidate evaluation
 ---
 
-## 🎯 **What Makes This Special?**
+## **What Makes This Special?**
 
 Traditional hiring is broken. Resumes lie, interviews are biased, and coding challenges are subjective. **Holistic Hires** fixes this with:
 
-- **🤖 AI-Powered Code Analysis** - Gemini evaluates actual GitHub repositories, not just claims
-- **🎥 AI Video Interviews** - Generates custom questions based on candidate's code, transcribes responses
-- **📊 Multi-Dimensional Scoring** - 5-factor evaluation (Code Quality, Resume Fit, Code Alignment, MCQ, Interview)
-- **⚖️ Bias-Free Evaluation** - Consistent AI assessment removes human prejudice
-- **⚡ End-to-End Automation** - From submission to comprehensive report in minutes
+- **AI-Powered Code Analysis** - Gemini evaluates actual GitHub repositories, not just claims
+- **AI Video Interviews** - Generates custom questions based on candidate's code, transcribes responses
+- **Multi-Dimensional Scoring** - 5-factor evaluation (Code Quality, Resume Fit, Code Alignment, MCQ, Interview)
+- **Bias-Free Evaluation** - Consistent AI assessment removes human prejudice
+- **End-to-End Automation** - From submission to comprehensive report in minutes
 
 ---
 
-## 🌟 **Key Features**
+## **Key Features**
 
 ### **For Companies**
-- 📝 Post positions with custom coding challenges
-- 🎯 Define ideal candidate profiles
-- 📊 Get comprehensive AI-generated candidate reports
-- 🔍 Search and rank candidates by semantic fit
+- Post positions with custom coding challenges
+- Define ideal candidate profiles
+- Get comprehensive AI-generated candidate reports
+- Search and rank candidates by semantic fit
 
 ### **For Candidates**
-- 🌐 Browse open positions
-- 💻 Submit GitHub repositories (real code, not whiteboard puzzles)
-- 🎤 Take AI-powered video interviews with personalized questions
-- 📈 Receive detailed feedback on all evaluation areas
+- Browse open positions
+- Submit GitHub repositories (real code, not whiteboard puzzles)
+- Take AI-powered video interviews with personalized questions
+- Receive detailed feedback on all evaluation areas
 
 ---
 
-## 🏗️ **Architecture**
+## **Architecture**
 
 ```
 ┌─────────────────┐
@@ -90,7 +90,7 @@ STAGE 3: Final Analysis
 
 ---
 
-## 🛠️ **Tech Stack**
+## **Tech Stack**
 
 ### **Backend**
 - **FastAPI** - High-performance async API
@@ -109,7 +109,7 @@ STAGE 3: Final Analysis
 
 ---
 
-## 🚀 **Quick Start**
+## **Quick Start**
 
 ### **Prerequisites**
 ```bash
@@ -169,7 +169,7 @@ http://localhost:5173
 
 ---
 
-## 📋 **API Endpoints**
+## **API Endpoints**
 
 ### **POST /evaluate/start**
 Start candidate evaluation
@@ -189,7 +189,7 @@ Cancel in-progress evaluation
 
 ---
 
-## 🎓 **How It Works**
+## **How It Works**
 
 ### **1. Candidate Applies**
 ```javascript
@@ -238,7 +238,7 @@ overall_score = (
 
 ---
 
-## 📊 **Sample Output**
+## **Sample Output**
 
 ```json
 {
@@ -266,17 +266,17 @@ overall_score = (
 
 ---
 
-## 🔐 **Security & Privacy**
+## **Security & Privacy**
 
-- 🔒 All video data processed securely
-- 🗑️ Session data cleaned after evaluation
-- 🚫 No persistent storage of video files
-- ✅ Resume PDFs handled in-memory only
-- 🔑 API keys stored in environment variables
+- All video data processed securely
+- Session data cleaned after evaluation
+- No persistent storage of video files
+- Resume PDFs handled in-memory only
+- API keys stored in environment variables
 
 ---
 
-## 🎨 **Screenshots**
+## **Screenshots**
 
 ### Landing Page
 Beautiful dual-portal design for companies and candidates
@@ -292,7 +292,7 @@ Beautiful dual-portal design for companies and candidates
 
 ---
 
-## 🧪 **Testing**
+## **Testing**
 
 ```bash
 # Backend tests
@@ -301,66 +301,10 @@ pytest tests/
 # Frontend tests
 npm test
 ```
-
 ---
 
-## 🚧 **Roadmap**
-
-- [ ] **Company Portal** - Full company dashboard for posting jobs and managing candidates
-- [ ] **Real-time Collaboration** - Live interview scheduling
-- [ ] **Advanced Analytics** - Candidate comparison charts
-- [ ] **API Rate Limiting** - Redis-based throttling
-- [ ] **Email Notifications** - Status updates
-- [ ] **Candidate Dashboard** - Track multiple applications
-- [ ] **Mobile App** - iOS/Android support
-
----
-
-## 🤝 **Contributing**
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📝 **License**
+## **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-## 👥 **Team**
-
-Built with ❤️ by developers who believe hiring should be fair, comprehensive, and automated.
-
----
-
-## 🙏 **Acknowledgments**
-
-- **Google Gemini** - For powerful multimodal AI capabilities
-- **Qdrant** - For semantic vector search
-- **FastAPI** - For the amazing web framework
-- **React Team** - For the incredible frontend library
-
----
-
-## 📞 **Support**
-
-- 📧 Email: support@holistichires.com
-- 💬 Discord: [Join our community](https://discord.gg/holistic-hires)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/holistic-hires/issues)
-
----
-
-<div align="center">
-
-**⭐ Star this repo if you believe in fair, AI-powered hiring! ⭐**
-
-Made with 🤖 by developers, for developers
-
-</div>
